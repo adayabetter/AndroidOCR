@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+
+    <com.example.androidocr.SketchView
+        android:id="@+id/id_sketch_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+    <LinearLayout
+        android:id="@+id/id_controller"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:id="@+id/id_pen"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/orange"/>
+
+        <ImageView
+            android:id="@+id/id_eraser"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/blue"/>
+
+        <ImageView
+            android:id="@+id/id_undo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/black"/>
+
+        <ImageView
+            android:id="@+id/id_redo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@color/white"/>
+
+
+        <ImageView
+            android:id="@+id/id_screenshot"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/red"/>
+
+        <ImageView
+            android:id="@+id/id_save"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@color/teal_700"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
